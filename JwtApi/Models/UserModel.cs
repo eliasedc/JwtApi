@@ -6,6 +6,8 @@
         public string Password { get; set; }
         public string Function { get; set; }
         public string ApiClientName { get; set; }
-        public string CustomClaim { get; internal set; }
+        /*
+         * Custom user data can be created to add Custom Claim to validate by policy or manually in controller method
+         * public string CustomClaim { get; internal set; }*/
     }
 }
